@@ -125,7 +125,8 @@
     .hiw_left_side h2 {
         font-size: 43px;
         margin-bottom: 35px;
-        align-self: center;
+        width: 100%;
+        text-align: center;
     }
     .how_it_works ul {
         padding-top: 88px;
@@ -304,7 +305,7 @@
         transform: translateY(200px);
     }
     .copyright{
-        margin-top: 70px;
+        margin-top:88px;
     }   
 
 
@@ -374,6 +375,10 @@
     .partners_list li{
         width: 230px;
     }
+    .hiw_left_side p {
+    font-size: 16px;
+    line-height: 30px;
+}
 }
 
 @media(max-width:480px){
@@ -405,11 +410,14 @@
     .counter_list li span {
         font-size: 31px;
     }
+    .how_it_works {
+    padding-top: 65px;
+    }
     .hiw_left_side{
         padding:0 10px;
     }
     .hiw_left_side h2 {
-        font-size: 35px;
+        font-size: 25px;
         margin-bottom: 20px;
     }
     .map_section {
@@ -426,7 +434,7 @@
         font-size: 12px;
     }
     .partners_in h2{
-        font-size: 30px;
+        font-size: 25px;
     }
     .partners_list{
         margin-top: 44px;
@@ -435,7 +443,7 @@
         width: 190px;
     }
     .footer_banner {
-        padding: 33px 50px 5px 26px;
+        padding: 30px 20px 5px 10px;
     }
     .footer_banner .footer_logo {
         width: 131px;
@@ -449,18 +457,91 @@
         transform: translateY(160px);
     }
     .footer_main ul li a {
-        font-size: 15px;
+        font-size: 13px;
     }
     .footer_main ul h5{
         margin-bottom: 13px;
     }
     .copyright {
-        margin-top: 34px;
+        margin-top: 80px;
         font-size: 14px;
     } 
+    .footer_banner p{
+        line-height: 22px;
+    }
+    .slider_text h3 {
+        font-size: 16px;
+    }
+    .slider_text p{
+        font-size: 14px;
+    }
+    .how_it_works ul li span {
+        font-size: 40px;
+    }   
+    .how_it_works ul li h3 {
+        font-size: 25px;
+    }
+    .how_it_works ul li p {
+        font-size: 16px;    
+    }
+    .header {
+        height: 494px;
+    }
+    .transport_services_list:first-child h2 {
+        font-size: 30px;
+    }
+
 }
 @media(max-width:420px){
     .partners_list li{
         width: 170px;
     }
+}
+
+@media(max-width:380px){
+   .header_bottom h1{
+        font-size: 20px;
+    }
+    .header_bottom p {
+        font-size: 14px;
+        text-align:center;
+    }
+    .header_bottom a{
+        font-size: 16px;
+        width: 200px;
+    }
+    .counter_text{
+        flex-direction: column;
+    }
+    .counter_text h2{
+        text-align: center;
+        width: 100%;
+    }
+    .counter_list{
+       width: 100%;
+    }
+    .hiw_left_side h2 {
+    font-size: 19px;
+    align-self: unset;
+    text-align: center;
+    }
+    .partners_list li{
+        width: 140px;
+    }
+    .footer_first_menu_list {
+        margin-right: 0;
+    }
+    .how_it_works ul li span {
+        font-size: 30px;
+    }
+    .how_it_works ul li h3 {
+        font-size: 18px;
+    }
+    .how_it_works ul li p {
+        line-height: 28px;
+    }
+    .how_it_works ul li{
+        padding-right: 5px;
+    }
+    
 }

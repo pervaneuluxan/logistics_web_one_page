@@ -412,7 +412,7 @@ body{
     padding: 27px 0 29px 0;
 }
 .counter_list{
-    width: 839px;
+    width: 70%;
 }
 .counter_list li{
     width: calc(100% / 3);
@@ -433,7 +433,7 @@ body{
     font-size: 50px;
     color: var(--main-white);
     text-transform: uppercase;
-    width: 350px;
+    width: 30%;
 }
 
 /* HIW Section */
@@ -443,7 +443,7 @@ body{
     padding-bottom: 65px;
 }
 .hiw_left_side{
-    width: 435px;
+   width: 48%;
 }
 .hiw_left_side h2{
     font-size: 50px;
@@ -451,7 +451,7 @@ body{
     color: var(--main-blue);
     text-transform: uppercase;
     margin-bottom: 66px;
-    width: 435px;
+    width: 100%;
 }
 .hiw_left_side p{
     font-size: 18px;
